@@ -1,0 +1,62 @@
+/* Reset default styles for body, header, section, and footer */
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family:'Poppins',sans-serif;
+}
+
+body {
+    background: url(blake-wisz-Bf_ItbkEBjI-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backface-visibility: visible;
+  }
+  
+  /* Apply styles to header */
+  header {
+    padding: 20px;
+  }
+  
+  /* Apply styles to header h1 */
+  header h1 {
+    font-size: 35px;
+    padding-left:45% ;
+    color: #ee6c39;
+  }
+  
+  /* Apply styles to content section */
+  #content {
+    padding: 20px;
+  }
+  
+  /* Apply styles to content section h2 */
+  #content h2 {
+    font-size: 24px;
+    margin-top: 20px;
+    color: #fff;
+  }
+  
+  /* Apply styles to content section p */
+  #content p {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #fff;
+  }
+  
+  /* Apply styles to footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding-top: 2px;
+    /* bottom: 0; */
+    text-align: center;
+  }
+  
+  /* Apply styles to footer p */
+  footer p {
+    font-size: 17px;
+  }
+  .bgg{
+    background-color: rgba(0,0,0,0.6);
+  }
+  

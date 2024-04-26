@@ -1,0 +1,405 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+}
+.banner{
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+.bgimg{
+  /* position: relative; */
+}
+.title{
+  position: absolute;
+  top: 200px;
+  left: 300px;
+  z-index: 2;
+  background: rgba(0,0,0,0.3);
+  backdrop-filter: blur(8px);
+  padding: 60px;
+  border-radius: 20px;
+}
+.title h1{
+  color: #fff;
+}
+.title h2{
+  color: #adc467;
+  padding: 20px;
+  margin-left: 75px;
+}
+.title a{
+  text-decoration:solid;
+  color: #8cd9eb;
+  border-radius: 10%;
+  padding: 10px; 
+  margin-left: 35%;
+  border:2px solid #8cd9eb;
+  transition: .3s ease;
+}
+.title a:hover{
+  background-color: #8cd9eb;
+  color: #fff;
+}
+.nature{
+  background-repeat: no-repeat;
+}
+header {
+	background-color: #4CAF50;
+	color: white;
+	padding: 10px;
+}
+section img{
+  height: 380px;
+  width: 500px;
+}
+
+nav ul { z-index: 3;
+ 
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+  position:fixed;
+  background-color: #0b0a0a;
+  width: 100%; 
+   display: inline-block;
+ }
+ 
+nav li {
+	float: left;
+}
+
+nav ul li a {
+	display:block;
+	color: rgb(224, 218, 218);
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration:none;
+ }  
+.save ul{
+list-style:symbols(⇝);
+}
+
+section {
+	padding: 20px;
+
+}
+section p{
+  font-size: 18px;
+}
+main section p{
+  font-size: 18px;
+}
+table,td,th{
+  border: 2px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+}
+.photos{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.photos img{
+  width: 500px;
+  height: 300px;
+  box-shadow: 0px 0px 10px 5px black;
+  border-radius: 20px;
+}
+section h1{
+  font-size: 40px;
+}
+
+section h2 {
+	color: #000000;
+  /* padding: 20px; */
+  font-size: 30px;
+}
+
+ul {
+	list-style-type: disc;
+	margin-left: 20px;
+}
+
+.photo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-radius: 40px;
+}
+.photo1 > img{
+  box-shadow: 0px 0px 10px 5px black;
+  border-radius: 50px;
+}
+.photo2 > img{
+  box-shadow: 0px 0px 10px 5px black;
+  border-radius: 50px;
+}
+.photo4 > img{
+  box-shadow: 0px 0px 10px 5px black;
+  border-radius: 20px;
+}
+.nature > img {
+  float: left;
+  margin: 30px;
+  width: 34%;
+  position: relative;
+  height: 40%;
+  box-shadow: 0px 0px 10px 5px black;
+  border-radius: 20px;
+
+}
+ footer {
+	background-color: #684caf;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	/* position: sticky; */
+	/* bottom: 0;
+	width: 100%;
+    display:inline-flex; */
+} 
+
+.modal {
+	display: none;
+	position: fixed;}
+    /* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #008080;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 36px;
+  }
+  
+  /* Navigation Styles */
+  
+  
+  nav ul {
+    /* background: url(nature.j/ */
+    margin: 0;
+    list-style:none;
+    padding: 0;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  
+  
+  nav li a {
+    padding: 10px;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  
+  nav li a:hover {
+    background-color: #787070;
+    color: #fff
+  }
+  .background{
+   position:sticky;
+   overscroll-behavior-block:auto ;
+  }
+.contact-form{
+  margin: 0;
+  padding: 0;
+  background:url(pexels-alex-andrews-821754.jpg) ;
+
+}
+
+.site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
+ body {
+  background: #9af3ff79;
+  background: -webkit-linear-gradient(to right, #89fffb74, #a9a8ff7b);
+  background: linear-gradient(to right, #a0f2ff6a, #a8acff78);
+  min-height: 100vh; 
+ } 
+
+#button-addon1 {
+  color: #ffc371;
+}
